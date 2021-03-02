@@ -1,5 +1,5 @@
-# Python 3.6
-FROM python@sha256:81782ff0fadf910a9f13747608f0d93e8938cbbdc1e50dc8c88e4e1ab8d9e7b2
+# Python 3.9
+FROM python:3.9
 MAINTAINER Social Feed Manager <sfm@gwu.edu>
 
 ARG DEBIAN_FRONTEND=noninteractive
