@@ -18,7 +18,7 @@ class BaseWarcIter:
 
     This supports payloads which are json or line-oriented json.
 
-    Subclasses should overrride _select_record(), _item_iter(), item_types, and
+    Subclasses should override _select_record(), _item_iter(), item_types, and
     possibly line_oriented.
     """
 
